@@ -11,9 +11,7 @@ main {
   height: 100vh;
   height: -webkit-fill-available;
   max-height: 100vh;
-  overflow-x: auto;
-  overflow-y: auto;
-  /* transform: translateX(-280px); */
+    overflow-y: hidden;
 }
 
 span {
@@ -21,7 +19,6 @@ span {
 }
 
 .container {
-  margin-top: 10px;
   display: grid;
   height: 100%;
   grid-template-columns: repeat(3, 1fr);
